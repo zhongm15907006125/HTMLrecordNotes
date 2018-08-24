@@ -7,4 +7,19 @@
     <th>Month</th>
 --rowspan/colspan 跨行跨列操作，写在td内，代表该td所跨的行或列
 <td rowspan='2'>  代表该td跨两列 <tr colspan='2'> 代表该td跨两行
+  --cellpadding 单元格边距代表单元格内文字（内容）和边框的边距
+  <table border="1" 
+cellpadding="10">
+<tr>
+  <td>First</td>
+  <td>Row</td>
+</tr>   
+    --cellspacing 单元格之间距代表每一个单元格之间的间距
+    <table border="1" cellspacing="0">
+<tr>
+  <td>First</td>
+  <td>Row</td>
+</tr>
+      
+   --<ul><li></li></ul>
 
