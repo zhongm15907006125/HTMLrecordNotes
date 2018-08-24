@@ -5,3 +5,6 @@
   <caption>Monthly savings</caption>
   <tr>
     <th>Month</th>
+--rowspan/colspan 跨行跨列操作，写在td内，代表该td所跨的行或列
+<td rowspan='2'>  代表该td跨两列 <tr colspan='2'> 代表该td跨两行
+
